@@ -11,7 +11,7 @@ function App() {
       <Header></Header>
       <main id="mainContainer">
         <div className="container">
-          <ProductList></ProductList>
+          <ProductList />
           <Message></Message>
           <CartList></CartList>
         </div>
@@ -20,5 +20,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
